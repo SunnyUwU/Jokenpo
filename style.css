@@ -1,6 +1,10 @@
 #container {
     font-family: Poppins;
+}
 
+#title {
+    text-align: center;
+    padding: 2vh 0;
 }
 
 #placar {
@@ -75,6 +79,8 @@
 #jogador-escolha a:hover {
     opacity: 100%;
     cursor: pointer;
+
+    transition-duration: 0.3s;
 }
 
 #jogador-escolha img,
@@ -93,5 +99,12 @@
 }
 
 #mensagens {
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2vw;
+    
+    margin: 2vh 0;
+    padding: 2vh;
 
+    background-color: darkgray;
 }
