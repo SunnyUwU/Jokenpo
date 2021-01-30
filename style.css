@@ -1,0 +1,97 @@
+#container {
+    font-family: Poppins;
+
+}
+
+#placar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+#jogador {
+   background-color: #3498db;
+}
+
+#jogador-pontos,
+#computador-pontos {
+    position: absolute;
+    top: .8vh;
+
+    font-size: 4.8vw;
+}
+
+#jogador-pontos {
+    right: 2vh;
+}
+
+#jogador-nome,
+#computador-nome {
+    font-size: 2vw;
+}
+
+#computador-nome {
+    text-align: right;
+}
+
+#jogador, 
+#computador {
+    position: relative;
+    flex-grow: 1;
+    padding: 2vh;
+
+    border-radius: 5px;
+}
+
+#jogador h2, 
+#computador h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#jogador-escolha,
+#computador-escolha {
+    margin: 3vh 0 0;
+    padding: 0;
+    text-align: center;
+
+    list-style: none;
+}
+
+#jogador-escolha li,
+#computador-escolha li {
+    display: inline;
+
+    padding: 0 15px;
+}
+
+#jogador-escolha a,
+#computador-escolha a {
+    opacity: 50%;
+}
+
+#jogador-escolha a:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+#jogador-escolha img,
+#computador-escolha img {
+    max-width: 9vh;
+}
+
+#versus {
+    color: black;
+    font-size: 8vh;
+    padding: 0 8vh;
+}
+
+#computador {
+    background-color: #e74c3c;
+}
+
+#mensagens {
+
+}
