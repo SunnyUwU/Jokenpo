@@ -21,3 +21,8 @@ jogadorNome = prompt('Qual é o seu nome?');
 
 //Mudança da mensagem
 document.getElementById('mensagens').innerHTML = ('Bem-Vinde ' + jogadorNome + '! Está preparade? Faça sua jogada.');
+
+//Mudar o nome do jogador
+document.getElementById('jogador-nome').innerHTML = jogadorNome;
+
+//------------------------------------------------------------------------//
