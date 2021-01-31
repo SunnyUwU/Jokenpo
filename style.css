@@ -76,7 +76,9 @@
     opacity: 50%;
 }
 
-#jogador-escolha a:hover {
+#jogador-escolha a:hover,
+#computador-escolha a.selec,
+#jogador-escolha a.selec {
     opacity: 100%;
     cursor: pointer;
 
