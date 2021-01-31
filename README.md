@@ -1,6 +1,6 @@
-# Jokenpo
+# Jokenpô 
 ## Projeto 💬
-*Jokenpo* em HTML. Um site no qual você poderá jogar "Pedra, Papel e Tesoura" contra o seu computador.
+*Jokenpô* em HTML. Um site no qual você poderá jogar "Pedra, Papel e Tesoura" contra o seu computador.
 ## Tecnologias Usadas 🚀
 
  - HTML
